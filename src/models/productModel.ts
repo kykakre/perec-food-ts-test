@@ -2,7 +2,7 @@ export interface IProduct {
     id:number,
     title:string,
     description:string,
-    price:IPrice[],
+    priceCount:IPrice[],
 }
 interface IPrice{
     count:string,
