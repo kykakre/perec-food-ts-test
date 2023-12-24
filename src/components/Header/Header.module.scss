@@ -1,0 +1,21 @@
+@import "../../style/mixin.scss";
+
+.header{
+  @include container();
+  @include fluid(padding-top, 25px, 50px);
+  @include fluid(padding-bottom, 25px, 50px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  @include fluid(width, 100px, 150px);
+  @include fluid(height, 100px, 150px);
+  object-fit: contain;
+}
+.title{
+  @include fluid(font-size,36px, 48px);
+  color: #c20000;
+  text-transform: uppercase;
+  font-weight: 500;
+}
